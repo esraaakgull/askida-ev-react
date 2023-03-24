@@ -20,7 +20,7 @@ Green: New Beginnings, Abundance, Nature
 ![colors3](https://user-images.githubusercontent.com/94448231/227480603-48cc771b-3a53-4376-a15b-d049b1832ae8.PNG)
 
 
-#Güncel Tasarımlar
+# Güncel Tasarımlar
 ### Home ![home](https://user-images.githubusercontent.com/94448231/227478055-5ac605f9-5645-4344-aa61-563c2f359975.png)
 ### FAQ ![faq](https://user-images.githubusercontent.com/94448231/227478115-f9eced62-8a38-4241-928e-1743754ed63e.png)
 ### Contact ![contact](https://user-images.githubusercontent.com/94448231/227478185-21003d48-d746-4d04-91f5-fe2a4f7a3bcd.png)
