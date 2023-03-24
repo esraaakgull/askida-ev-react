@@ -11,9 +11,12 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ### Chosen colors and theirs meanings:
-Orange: Energy, Happiness, Vitality\
-Yellow: Happiness, Hope, Deceit\
-Green: New Beginnings, Abundance, Nature\
+Orange: Energy, Happiness, Vitality
+
+Yellow: Happiness, Hope, Deceit
+
+Green: New Beginnings, Abundance, Nature
+
 ![colors3](https://user-images.githubusercontent.com/94448231/227480603-48cc771b-3a53-4376-a15b-d049b1832ae8.PNG)
 
 
