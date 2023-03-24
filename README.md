@@ -1,7 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -13,6 +9,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+### Chosen colors and theirs meanings:
+Orange: Energy, Happiness, Vitality
+Yellow: Happiness, Hope, Deceit
+Green: New Beginnings, Abundance, Nature
+![colors3](https://user-images.githubusercontent.com/94448231/227480603-48cc771b-3a53-4376-a15b-d049b1832ae8.PNG)
+
 
 #Güncel Tasarımlar
 ### Home ![home](https://user-images.githubusercontent.com/94448231/227478055-5ac605f9-5645-4344-aa61-563c2f359975.png)
