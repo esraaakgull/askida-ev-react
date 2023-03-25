@@ -2,10 +2,10 @@
 // linklerle bağlarız
 const LoginRegisterDirection = () => {
   return (
-    <ul className="bg-whitesmoke nav nav-pills nav-justified mb-3 rounded">
-      <li className="nav-item">
+    <ul className="nav nav-justified mb-3 rounded loginRegisterDirectionTab ">
+      <li className="nav-item ">
         <a
-          className="nav-link  loginRegisterDirection active"
+          className="nav-link loginRegisterDirection active color-whitesmoke"
           href="../../../../Desktop/askida-ev-react-yapılı olan/src/components#!"
           role="tab">
           Login

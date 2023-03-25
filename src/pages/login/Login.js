@@ -4,7 +4,7 @@ import SocialMediaLoginRegisterPart from '../../components/SocialMediaLoginRegis
 const Login = () => {
   return (
     <>
-      <section className="bg-whitesmoke pb-4 d-flex justify-content-center">
+      <section className="bg-yellow pb-4 d-flex justify-content-center">
         <div className="p-4 m-4 loginRegisterForm">
           <LoginRegisterDirection />
           <div className="tab-content d-flex justify-content-center">

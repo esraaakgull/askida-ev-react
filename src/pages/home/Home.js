@@ -3,7 +3,7 @@ import MissionVision from './MissionVision';
 
 const Home = () => {
   return (
-    <div className="bg-whitesmoke">
+    <div>
       {/*Slider a bak çalışmıyor*/}
       {/*<Slider />*/}
       <HomeAds />
