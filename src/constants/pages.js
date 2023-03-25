@@ -8,7 +8,7 @@ import ShareAd from '../pages/shareAd/ShareAd';
 import AdminLogin from '../pages/adminPages/login/AdminLogin';
 import Dashboard from '../pages/adminPages/Dashboard/Dashboard';
 import User from '../pages/adminPages/user/User';
-import Adds from '../pages/adminPages/Adds/Adds';
+import Ads from '../pages/adminPages/Ads/Ads';
 import MatchAdUser from '../pages/adminPages/matchAdUser/MatchAdUser';
 // ICONLARA GEREK VAR MI, HEADERDA KULLANACAK MISIN ?
 // Pageleri düzenle, user, admin, common
@@ -79,7 +79,7 @@ export const pages = {
     ads: {
       title: 'İlanlar',
       path: '/adds',
-      element: <Adds />,
+      element: <Ads />,
       icon: 'fa-house'
     },
     matchAdUser: {

@@ -36,8 +36,7 @@ const Login = () => {
                       checked
                     />
                     <label className="form-check-label" htmlFor="loginCheck">
-                      {' '}
-                      Remember me{' '}
+                      Remember me
                     </label>
                   </div>
                 </div>

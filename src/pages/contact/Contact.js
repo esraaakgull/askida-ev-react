@@ -1,8 +1,8 @@
 const Contact = () => {
   return (
-    <div className="p-4 ">
-      <div className="container">
-        <div className="row contactForm ">
+    <div className="p-4 bg-yellow">
+      <div className="container rounded contactForm">
+        <div className="row ">
           <div className="col-md-6 p-3 ">
             <iframe
               width="100%"
@@ -14,7 +14,9 @@ const Contact = () => {
             />
           </div>
           <div className="col-md-6 p-3">
-            <form className="text-center border-start p-5" action="src/pages/contact#!">
+            <form
+              className="text-center border-start border-2 border-dark p-5"
+              action="src/pages/contact#!">
               <p className="h4 mb-4">Contact us</p>
               <input
                 type="text"

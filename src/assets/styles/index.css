@@ -112,8 +112,8 @@ a:hover {
 
 .contactForm {
     border: 2px solid #00916E;
-    border-radius: 2%;
-    background: #EC9F05;
+   /*border-radius: 2%;*/
+    background-color: white;
 }
 
 .btn:focus {
