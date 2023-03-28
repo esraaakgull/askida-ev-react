@@ -1,5 +1,5 @@
-import LoginRegisterDirection from '../../components/LoginRegisterDirection';
-import SocialMediaLoginRegisterPart from '../../components/SocialMediaLoginRegisterPart';
+import LoginRegisterDirection from '../components/LoginRegisterDirection';
+import SocialMediaLoginRegisterPart from '../components/SocialMediaLoginRegisterPart';
 
 const Login = () => {
   return (

@@ -1,11 +1,11 @@
 import HomeAds from './HomeAds';
 import MissionVision from './MissionVision';
+import Slider from './Slider';
 
 const Home = () => {
   return (
     <div>
-      {/*Slider a bak çalışmıyor*/}
-      {/*<Slider />*/}
+      <Slider />
       <HomeAds />
       <MissionVision />
     </div>

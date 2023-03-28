@@ -1,63 +1,63 @@
 import Home from '../pages/home/Home';
 import FAQ from '../pages/faq/FAQ';
-import Login from '../pages/login/Login';
-import Signup from '../pages/signup/Signup';
-import Contact from '../pages/contact/Contact';
+import Login from '../pages/Login';
+import Signup from '../pages/Signup';
+import Contact from '../pages/Contact';
 import DetailedAdPage from '../pages/detailedAdPage/DetailedAdPage';
-import ShareAd from '../pages/shareAd/ShareAd';
-import AdminLogin from '../pages/adminPages/login/AdminLogin';
-import Dashboard from '../pages/adminPages/Dashboard/Dashboard';
+import ShareAd from '../pages/ShareAd';
+import AdminLogin from '../pages/adminPages/AdminLogin';
+import Dashboard from '../pages/adminPages/Dashboard';
 import User from '../pages/adminPages/user/User';
-import Ads from '../pages/adminPages/Ads/Ads';
+import Ads from '../pages/adminPages/ads/Ads';
 import MatchAdUser from '../pages/adminPages/matchAdUser/MatchAdUser';
 // ICONLARA GEREK VAR MI, HEADERDA KULLANACAK MISIN ?
-// Pageleri düzenle, user, admin, common
+// Pageleri düzenle, user, admin, common/other?
 export const pages = {
   userPages: {
     home: {
-      title: 'Home',
+      title: 'Anasayfa',
       path: '/',
       element: <Home />,
-      icon: 'fa-question'
+      icon: 'fa-home'
     },
     faq: {
-      title: 'FAQ',
+      title: 'SSS',
       path: '/frequently-asked-questions',
       element: <FAQ />,
-      icon: 'fa-question'
+      icon: 'fa-book'
     },
     login: {
-      title: 'Login',
+      title: 'Giriş Yap',
       path: '/login',
       element: <Login />,
       icon: 'fa-user'
     },
     signup: {
-      title: 'Signup',
+      title: 'Üye Ol',
       path: '/signup',
       element: <Signup />,
       icon: 'fa-user'
     },
     contact: {
-      title: 'Contact',
+      title: 'İletişim',
       path: '/contact',
       element: <Contact />,
       icon: 'fa-circle-info'
     },
     detailedAd: {
-      title: 'Detailed Ad',
+      title: 'Detaylı İlan',
       path: '/detailedAd',
       element: <DetailedAdPage />,
       icon: 'fa-circle-info'
     },
     shareAd: {
-      title: 'Share Ad',
+      title: 'İlan Paylaş',
       path: '/shareAd',
       element: <ShareAd />,
       icon: 'fa-pencil'
     },
     adminLogin: {
-      title: 'Admin Login',
+      title: 'Admin',
       path: '/adminLogin',
       element: <AdminLogin />,
       icon: 'fa-home'
@@ -65,7 +65,7 @@ export const pages = {
   },
   adminPages: {
     home: {
-      title: 'Dashboard',
+      title: 'Anasayfa',
       path: '/',
       element: <Dashboard />,
       icon: 'fa-gauge'
@@ -87,6 +87,14 @@ export const pages = {
       path: '/match',
       element: <MatchAdUser />,
       icon: 'fa-arrows-up-down-left-right'
+    }
+  },
+  otherPages: {
+    logout: {
+      isLogout: true,
+      title: 'Çıkış Yap',
+      icon: 'fa-sign-out-alt',
+      path: '#'
     }
   }
 };

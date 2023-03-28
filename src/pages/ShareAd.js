@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import noImage from '../../assets/images/noImage.jpg';
+import noImage from '../assets/images/noImage.jpg';
 
 const ShareAd = () => {
   const [imageUrl1, setImageUrl1] = useState(noImage);

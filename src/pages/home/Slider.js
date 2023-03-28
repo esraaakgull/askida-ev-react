@@ -1,117 +1,32 @@
+import React from 'react';
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css';
+
 const Slider = () => {
+  const images = [
+    'https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
+    'https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80',
+    'https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80'
+  ];
+
   return (
-    <div id="myCarousel" className="carousel slide" data-bs-ride="carousel">
-      <div className="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#myCarousel"
-          data-bs-slide-to="0"
-          className="active"
-          aria-current="true"
-          aria-label="Slide 1"></button>
-        <button
-          type="button"
-          data-bs-target="#myCarousel"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button
-          type="button"
-          data-bs-target="#myCarousel"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
-      </div>
-      <div className="carousel-inner">
-        <div className="carousel-item active">
-          <svg
-            className="bd-placeholder-img"
-            width="100%"
-            height="100%"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false">
-            <rect width="100%" height="100%" fill="#777" />
-          </svg>
-
-          <div className="container">
-            <div className="carousel-caption text-start">
-              <h1>Example headline.</h1>
-              <p>Some representative placeholder content for the first slide of the carousel.</p>
-              <p>
-                <a className="btn btn-lg btn-primary" href="src/pages/home#">
-                  Sign up today
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="carousel-item">
-          <svg
-            className="bd-placeholder-img"
-            width="100%"
-            height="100%"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false">
-            <rect width="100%" height="100%" fill="#777" />
-          </svg>
-
-          <div className="container">
-            <div className="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Some representative placeholder content for the second slide of the carousel.</p>
-              <p>
-                <a className="btn btn-lg btn-primary" href="src/pages/home#">
-                  Learn more
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="carousel-item">
-          <svg
-            className="bd-placeholder-img"
-            width="100%"
-            height="100%"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false">
-            <rect width="100%" height="100%" fill="#777" />
-          </svg>
-
-          <div className="container">
-            <div className="carousel-caption text-end">
-              <h1>One more for good measure.</h1>
-              <p>Some representative placeholder content for the third slide of this carousel.</p>
-              <p>
-                <a className="btn btn-lg btn-primary" href="src/pages/home#">
-                  Browse gallery
-                </a>
-              </p>
-            </div>
-          </div>
+    <Slide>
+      <div className="each-slide-effect">
+        <div style={{ backgroundImage: `url(${images[0]})` }}>
+          <span>Slide 1</span>
         </div>
       </div>
-      <button
-        className="carousel-control-prev"
-        type="button"
-        data-bs-target="#myCarousel"
-        data-bs-slide="prev">
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Previous</span>
-      </button>
-      <button
-        className="carousel-control-next"
-        type="button"
-        data-bs-target="#myCarousel"
-        data-bs-slide="next">
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Next</span>
-      </button>
-    </div>
+      <div className="each-slide-effect">
+        <div style={{ backgroundImage: `url(${images[1]})` }}>
+          <span>Slide 2</span>
+        </div>
+      </div>
+      <div className="each-slide-effect">
+        <div style={{ backgroundImage: `url(${images[2]})` }}>
+          <span>Slide 3</span>
+        </div>
+      </div>
+    </Slide>
   );
 };
-
 export default Slider;

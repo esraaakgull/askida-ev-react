@@ -55,7 +55,6 @@
 
 .menuItem.active {
     color: #EC9F05 !important;
-    background-color: #E4FF85 !important;
 }
 
 .loginRegisterDirection {
@@ -84,10 +83,12 @@
 
 .submitBtn {
     background-color: #00916E !important;
+    color: #F4F2F3
 }
 
 .submitBtn:hover {
-    color: #F4F2F3
+    color: #F4F2F3;
+    opacity: 0.8;
 }
 
 a {
@@ -112,7 +113,7 @@ a:hover {
 
 .contactForm {
     border: 2px solid #00916E;
-   /*border-radius: 2%;*/
+    /*border-radius: 2%;*/
     background-color: white;
 }
 
@@ -218,15 +219,32 @@ a:hover {
 
 .sideBarItem {
     color: white !important;
+    list-style-type: none !important;
 }
 
 .sideBarItem:hover {
     color: #EC9F05 !important;
 }
+
 .sideBarItem.active {
     border: 0;
     box-shadow: 0 1px 0 0 #EC9F05;
     color: #EC9F05 !important;
+}
+
+.each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 350px;
+}
+
+.each-slide-effect span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
 }
 
 
