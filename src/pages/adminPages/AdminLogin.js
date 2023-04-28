@@ -20,7 +20,7 @@ const AdminLogin = () => {
                 <div className="form-floating mb-3">
                   <input
                     type="email"
-                    className="form-control rounded-3"
+                    className="form-control rounded-3 border border-dark"
                     id="floatingInput"
                     placeholder="name@example.com"
                   />
@@ -29,7 +29,7 @@ const AdminLogin = () => {
                 <div className="form-floating mb-3">
                   <input
                     type="password"
-                    className="form-control rounded-3"
+                    className="form-control rounded-3 border border-dark"
                     id="floatingPassword"
                     placeholder="Password"
                   />

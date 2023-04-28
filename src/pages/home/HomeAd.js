@@ -18,7 +18,7 @@ const HomeAd = () => {
           </text>
         </svg>
 
-        <div className="card-body">
+        <div className="card-body border border-secondary">
           <p className="card-text">
             This is a wider card with supporting text below as a natural lead-in to additional
             content. This content is a little bit longer.
@@ -32,7 +32,6 @@ const HomeAd = () => {
                 İlana Başvur
               </button>
             </div>
-            <small className="text-muted">9 mins</small>
           </div>
         </div>
       </div>

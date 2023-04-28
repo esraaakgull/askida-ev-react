@@ -29,7 +29,7 @@ const ShareAd = () => {
                 <div className="col-md-6">
                   <div className="form-group pt-3">
                     <label htmlFor="inputCity">İl</label>
-                    <select id="inputState" className="form-control">
+                    <select id="inputState" className="form-control border border-secondary">
                       <option selected>İzmir</option>
                       <option>İstanbul</option>
                     </select>
@@ -38,7 +38,7 @@ const ShareAd = () => {
                 <div className="col-md-6">
                   <div className="form-group pt-3">
                     <label htmlFor="inputState">İlçe</label>
-                    <select id="inputState" className="form-control">
+                    <select id="inputState" className="form-control border border-secondary">
                       <option selected>Buca</option>
                       <option>Konak</option>
                     </select>
@@ -49,7 +49,7 @@ const ShareAd = () => {
                 <div className="col-md-6">
                   <div className="form-group pt-3">
                     <label htmlFor="inputState">Mahalle</label>
-                    <select id="inputState" className="form-control">
+                    <select id="inputState" className="form-control border border-secondary">
                       <option selected>Menderes</option>
                       <option>Erdem</option>
                     </select>
@@ -58,7 +58,7 @@ const ShareAd = () => {
                 <div className="col-md-6">
                   <div className="form-group pt-3">
                     <label htmlFor="inputState">Isınma Türü</label>
-                    <select id="inputState" className="form-control">
+                    <select id="inputState" className="form-control border border-secondary">
                       <option selected>Doğalgaz</option>
                       <option>Soba</option>
                     </select>
@@ -69,7 +69,7 @@ const ShareAd = () => {
                 <div className="col-md-6">
                   <div className="form-group pt-3">
                     <label htmlFor="inputState">Oda Sayısı</label>
-                    <select id="inputState" className="form-control">
+                    <select id="inputState" className="form-control border border-secondary">
                       <option selected>3+1</option>
                       <option>2+1</option>
                       <option>1+1</option>
@@ -79,7 +79,11 @@ const ShareAd = () => {
                 <div className="col-md-6">
                   <div className="form-group pt-3">
                     <label htmlFor="inputBuilding">Bina Yaşı</label>
-                    <input type="text" className="form-control" id="inputBuilding" />
+                    <input
+                      type="text"
+                      className="form-control border border-secondary"
+                      id="inputBuilding"
+                    />
                   </div>
                 </div>
               </div>
@@ -87,14 +91,18 @@ const ShareAd = () => {
                 <div className="col-md-6">
                   <div className="form-group pt-3">
                     <label htmlFor="inputBuildingSize">m2</label>
-                    <input type="text" className="form-control" id="inutBuildingSize" />
+                    <input
+                      type="text"
+                      className="form-control border border-secondary"
+                      id="inutBuildingSize"
+                    />
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="form-group pt-3">
                     <label htmlFor="inputExplanation">Açıklama</label>
                     <textarea
-                      className="form-control"
+                      className="form-control border border-secondary"
                       id="inputExplanation"
                       placeholder="Açıklama"
                     />
@@ -122,17 +130,17 @@ const ShareAd = () => {
                   </div>
                 </div>
                 <div className="col-md-3">
-                  <div className="form-group">
+                  <div className="form-group border border-secondary">
                     <img src={imageUrl1} alt="img" width={'100%'} />
                   </div>
                 </div>
                 <div className="col-md-3">
-                  <div className="form-group">
+                  <div className="form-group border border-secondary">
                     <img src={imageUrl2} alt="img" width={'100%'} />
                   </div>
                 </div>
                 <div className="col-md-3">
-                  <div className="form-group">
+                  <div className="form-group border border-secondary">
                     <img src={imageUrl3} alt="img" width={'100%'} />
                   </div>
                 </div>

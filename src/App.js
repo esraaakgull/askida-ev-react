@@ -8,36 +8,39 @@ import { Route, Routes } from 'react-router-dom';
 // admin oturum açmışsa adminPages gelecek
 
 function App() {
+  const pagesToBeShown = { ...pages.userPages, ...pages.otherPages };
+  console.log(pagesToBeShown);
   return (
     <div style={{ overflowX: 'hidden' }}>
       {/*-----------normal user pageleri için----------*/}
       <Header />
       <Routes>
-        {Object.keys(pages.userPages).map((page, index) => (
+        {Object.keys(pagesToBeShown).map((page, index) => (
           <Route
             exact
-            path={pages.userPages[page].path}
-            element={pages.userPages[page].element}
-            key={`userPage${index}`}
+            path={pagesToBeShown[page].path}
+            element={pagesToBeShown[page].element}
+            key={`otherPages${index}`}
           />
         ))}
       </Routes>
       <Footer />
 
-      {/*// ----admin pageleri için*/}
-      {/*<div className="row">*/}
-      {/*  <AdminSideBar />*/}
-      {/*  <Routes>*/}
-      {/*    {Object.keys(pages.adminPages).map((page, index) => (*/}
-      {/*      <Route*/}
-      {/*        exact*/}
-      {/*        path={pages.adminPages[page].path}*/}
-      {/*        element={pages.adminPages[page].element}*/}
-      {/*        key={`adminPage${index}`}*/}
-      {/*      />*/}
-      {/*    ))}*/}
-      {/*  </Routes>*/}
-      {/*</div>*/}
+      {/*// ----admin pageleri için
+      <div className="row">
+        <AdminSideBar />
+        <Routes>
+          {Object.keys(pages.adminPages).map((page, index) => (
+            <Route
+              exact
+              path={pages.adminPages[page].path}
+              element={pages.adminPages[page].element}
+              key={`adminPage${index}`}
+            />
+          ))}
+        </Routes>
+      </div>
+        */}
     </div>
   );
 }

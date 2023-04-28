@@ -26,41 +26,17 @@ export const pages = {
       element: <FAQ />,
       icon: 'fa-book'
     },
-    login: {
-      title: 'Giriş Yap',
-      path: '/login',
-      element: <Login />,
-      icon: 'fa-user'
-    },
-    signup: {
-      title: 'Üye Ol',
-      path: '/signup',
-      element: <Signup />,
-      icon: 'fa-user'
-    },
     contact: {
       title: 'İletişim',
       path: '/contact',
       element: <Contact />,
       icon: 'fa-circle-info'
     },
-    detailedAd: {
-      title: 'Detaylı İlan',
-      path: '/detailedAd',
-      element: <DetailedAdPage />,
-      icon: 'fa-circle-info'
-    },
-    shareAd: {
-      title: 'İlan Paylaş',
-      path: '/shareAd',
-      element: <ShareAd />,
-      icon: 'fa-pencil'
-    },
-    adminLogin: {
-      title: 'Admin',
-      path: '/adminLogin',
-      element: <AdminLogin />,
-      icon: 'fa-home'
+    login: {
+      title: 'Giriş Yap',
+      path: '/login',
+      element: <Login />,
+      icon: 'fa-user'
     }
   },
   adminPages: {
@@ -90,6 +66,30 @@ export const pages = {
     }
   },
   otherPages: {
+    detailedAd: {
+      title: 'Detaylı İlan',
+      path: '/detailedAd',
+      element: <DetailedAdPage />,
+      icon: 'fa-circle-info'
+    },
+    shareAd: {
+      title: 'İlan Paylaş',
+      path: '/shareAd',
+      element: <ShareAd />,
+      icon: 'fa-pencil'
+    },
+    adminLogin: {
+      title: 'Admin',
+      path: '/adminLogin',
+      element: <AdminLogin />,
+      icon: 'fa-home'
+    },
+    signup: {
+      title: 'Üye Ol',
+      path: '/signup',
+      element: <Signup />,
+      icon: 'fa-user'
+    },
     logout: {
       isLogout: true,
       title: 'Çıkış Yap',

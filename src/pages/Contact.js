@@ -21,23 +21,23 @@ const Contact = () => {
               <input
                 type="text"
                 id="defaultContactFormName"
-                className="form-control mb-4"
+                className="form-control mb-4 border border-secondary"
                 placeholder="Name"
               />
               <input
                 type="email"
                 id="defaultContactFormEmail"
-                className="form-control mb-4"
+                className="form-control mb-4 border border-secondary"
                 placeholder="E-mail"
               />
               <div className="form-group">
                 <textarea
-                  className="form-control rounded-0 mb-4"
+                  className="form-control mb-4 border border-secondary"
                   id="exampleFormControlTextarea2"
                   rows="3"
                   placeholder="Message"></textarea>
               </div>
-              <div className="row d-flex justify-content-center p-3">
+              <div className="row d-flex justify-content-center p-3 ">
                 <button className="btn submitBtn btn-block" type="submit">
                   Send
                 </button>

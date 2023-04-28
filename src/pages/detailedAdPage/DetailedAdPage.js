@@ -24,7 +24,7 @@ const DetailedAdPage = () => {
             <h1>İlan başlık</h1>
           </div>
           <div className="col pb-3 d-flex align-items-center ">
-            <Icon name="fa-location-dot" className="pe-2" size="22px" />
+            <Icon name="fa-location-dot" className="pe-2" size={22} />
             <span className="color-green">İzmir</span>
             <span> / </span>
             <span className="color-orange">Buca</span>
@@ -33,15 +33,15 @@ const DetailedAdPage = () => {
           </div>
           <div className="col pb-3">
             <div className="pb-2 d-flex align-items-center">
-              <Icon name="fa-fire pe-2 " size="22px" /> <b className="pe-2">Yakacak türü: </b>
+              <Icon name="fa-fire pe-2 " size={22} /> <b className="pe-2">Yakacak türü: </b>
               <span> Doğalgaz</span>
             </div>
             <div className="pb-2 d-flex align-items-center">
-              <Icon name="fa-building pe-2" size="22px" /> <b className="pe-2">Bina yaşı: </b>
+              <Icon name="fa-building pe-2" size={22} /> <b className="pe-2">Bina yaşı: </b>
               <span> Doğalgaz</span>
             </div>
             <div className="pb-2 d-flex align-items-center">
-              <Icon name="fa-maximize pe-2" size="22px" /> <b className="pe-2">m2: </b>
+              <Icon name="fa-maximize pe-2" size={22} /> <b className="pe-2">m2: </b>
               <span> 100</span>
             </div>
           </div>

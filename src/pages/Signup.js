@@ -15,7 +15,7 @@ const Signup = () => {
                 <input
                   type="text"
                   id="registerName"
-                  className="form-control"
+                  className="form-control border border-secondary"
                   placeholder="Please enter your name"
                 />
                 <label className="form-label" htmlFor="registerName">
@@ -26,7 +26,7 @@ const Signup = () => {
                 <input
                   type="text"
                   id="registerSurname"
-                  className="form-control"
+                  className="form-control border border-secondary"
                   placeholder="Please enter your surname"
                 />
                 <label className="form-label" htmlFor="registerSurname">
@@ -38,7 +38,7 @@ const Signup = () => {
                   type="tel"
                   pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                   id="registerPhone"
-                  className="form-control"
+                  className="form-control border border-secondary"
                   placeholder="Please enter your phone number"
                 />
                 <label className="form-label" htmlFor="registerPhone">
@@ -50,7 +50,7 @@ const Signup = () => {
                 <input
                   type="text"
                   id="registerUsername"
-                  className="form-control"
+                  className="form-control border border-secondary"
                   placeholder="Please enter your username"
                 />
                 <label className="form-label" htmlFor="registerUsername">
@@ -62,7 +62,7 @@ const Signup = () => {
                 <input
                   type="email"
                   id="registerEmail"
-                  className="form-control"
+                  className="form-control border border-secondary"
                   placeholder="Please enter your email"
                 />
                 <label className="form-label" htmlFor="registerEmail">
@@ -73,7 +73,7 @@ const Signup = () => {
               <div className="form-outline mb-4">
                 <textarea
                   id="registerAddress"
-                  className="form-control"
+                  className="form-control border border-secondary"
                   placeholder="Please enter your address"
                 />
                 <label className="form-label" htmlFor="registerAddress">
@@ -82,15 +82,15 @@ const Signup = () => {
               </div>
 
               <label className="form-label">Üyelik amacınızı seçiniz:</label>
-              <div className="form-outline mb-4 border rounded p-2">
+              <div className="form-outline mb-4 border rounded p-2 border border-secondary">
                 <input
                   type="radio"
-                  className="me-1"
+                  className="me-1 border border-secondary"
                   id="basvuru"
                   name="memberType"
                   value="Başvuru yapmak"
                 />
-                <label htmlFor="basvuru" className="pe-3">
+                <label htmlFor="basvuru" className="pe-3 ">
                   Başvuru yapmak
                 </label>
                 <input type="radio" id="ilan" name="memberType" value="İlan Vermek" />
@@ -102,7 +102,7 @@ const Signup = () => {
                 <input
                   type="password"
                   id="registerPassword"
-                  className="form-control"
+                  className="form-control border border-secondary"
                   placeholder="Please enter your password"
                 />
                 <label className="form-label" htmlFor="registerPassword">
@@ -114,7 +114,7 @@ const Signup = () => {
                 <input
                   type="password"
                   id="registerRepeatPassword"
-                  className="form-control"
+                  className="form-control border border-secondary"
                   placeholder="Please enter your password again"
                 />
                 <label className="form-label" htmlFor="registerRepeatPassword">
@@ -125,7 +125,7 @@ const Signup = () => {
               <div className="d-flex justify-content-center">
                 <div className="form-check mb-4">
                   <input
-                    className="form-check-input me-2"
+                    className="form-check-input me-2 border border-secondary"
                     type="checkbox"
                     value=""
                     id="registerCheck"
