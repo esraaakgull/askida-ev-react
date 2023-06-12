@@ -37,6 +37,30 @@ export const pages = {
       path: '/login',
       element: <Login />,
       icon: 'fa-user'
+    },
+    signup: {
+      title: 'Üye Ol',
+      path: '/signup',
+      element: <Signup />,
+      icon: 'fa-user'
+    },
+    detailedAd: {
+      title: 'Detaylı İlan',
+      path: '/detailedAd',
+      element: <DetailedAdPage />,
+      icon: 'fa-circle-info'
+    },
+    shareAd: {
+      title: 'İlan Paylaş',
+      path: '/shareAd',
+      element: <ShareAd />,
+      icon: 'fa-pencil'
+    },
+    adminLogin: {
+      title: 'Admin',
+      path: '/adminLogin',
+      element: <AdminLogin />,
+      icon: 'fa-home'
     }
   },
   adminPages: {
@@ -65,31 +89,8 @@ export const pages = {
       icon: 'fa-arrows-up-down-left-right'
     }
   },
+  // common pageleri -> user headerında gösterilmeyecek olanları buraya al
   otherPages: {
-    detailedAd: {
-      title: 'Detaylı İlan',
-      path: '/detailedAd',
-      element: <DetailedAdPage />,
-      icon: 'fa-circle-info'
-    },
-    shareAd: {
-      title: 'İlan Paylaş',
-      path: '/shareAd',
-      element: <ShareAd />,
-      icon: 'fa-pencil'
-    },
-    adminLogin: {
-      title: 'Admin',
-      path: '/adminLogin',
-      element: <AdminLogin />,
-      icon: 'fa-home'
-    },
-    signup: {
-      title: 'Üye Ol',
-      path: '/signup',
-      element: <Signup />,
-      icon: 'fa-user'
-    },
     logout: {
       isLogout: true,
       title: 'Çıkış Yap',

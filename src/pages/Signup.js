@@ -48,18 +48,6 @@ const Signup = () => {
 
               <div className="form-outline mb-4">
                 <input
-                  type="text"
-                  id="registerUsername"
-                  className="form-control border border-secondary"
-                  placeholder="Please enter your username"
-                />
-                <label className="form-label" htmlFor="registerUsername">
-                  Username
-                </label>
-              </div>
-
-              <div className="form-outline mb-4">
-                <input
                   type="email"
                   id="registerEmail"
                   className="form-control border border-secondary"

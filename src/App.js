@@ -1,18 +1,19 @@
 import { pages } from './constants/pages';
 import Footer from './layouts/Footer';
 import Header from './layouts/Header';
-import { Route, Routes } from 'react-router-dom';
 // import AdminSideBar from './layouts/AdminSideBar';
+
+import { Route, Routes } from 'react-router-dom';
 
 // pagelere göre(admin veya user) header,footer gelecek veya gelmeyecek
 // admin oturum açmışsa adminPages gelecek
 
 function App() {
   const pagesToBeShown = { ...pages.userPages, ...pages.otherPages };
-  console.log(pagesToBeShown);
   return (
     <div style={{ overflowX: 'hidden' }}>
       {/*-----------normal user pageleri için----------*/}
+      {/* */}
       <Header />
       <Routes>
         {Object.keys(pagesToBeShown).map((page, index) => (
@@ -26,7 +27,9 @@ function App() {
       </Routes>
       <Footer />
 
-      {/*// ----admin pageleri için
+      {/* ----admin pageleri için */}
+
+      {/*
       <div className="row">
         <AdminSideBar />
         <Routes>
@@ -40,7 +43,7 @@ function App() {
           ))}
         </Routes>
       </div>
-        */}
+       */}
     </div>
   );
 }
